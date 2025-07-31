@@ -1,5 +1,7 @@
 # Speed Typer Game (スピードタイパーゲーム)
 
+https://luckinsag.github.io/speed-typer-game
+
 ## 日本語説明 (Japanese Description)
 
 ### 概要
@@ -66,7 +68,3 @@ typegame/
 このプロジェクトはMITライセンスの下で公開されています。
 
 ---
-
-**開発者**: タイピングゲーム開発チーム  
-**バージョン**: 1.0.0  
-**最終更新**: 2024年 
