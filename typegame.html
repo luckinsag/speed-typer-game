@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- 难度选择和开始按钮  -->
+    <div class="difficulty-container">
+        <label for="difficulty">Difficulty</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <div>
+            <button id="start-button" class="start-button">START</button>
+        </div>
+    </div>
+     <!-- 游戏 -->
+        <div class="game-container">
+            <h1>Speed Typer</h1>
+            <!-- 时间和分数 -->
+            <div class="timeandscore">
+                <div class="time">Time left: <span id="time">30</span>s</div>
+                <div class="score">Score: <span id="score">0</span></div>
+            </div>
+            
+            <!-- 输入提示 -->
+            <p class="instruction">Type the following:</p>
+            <!-- 单词词库 -->
+            <div class="word">
+                <h2 id="word-display">begin</h2>
+            </div>
+            <!-- 文本入力框 -->
+            <div class="input">
+            <input type="text" id="word-input" disabled placeholder="Type the word here...">
+            </div>
+             
+        </div>
+        <!-- 游戏结束弹窗 -->
+        <div id="gameover-box" class="gameover">
+            <div class="gamerover-content">
+                <h2>Game Over</h2>
+                <p style="color: black;">Your Score: <span id="final-score">0</span></p>
+                <button id="restart-button">Restart</button>
+            </div>
+        </div>
+
+       
+
+    
+    <button class="menu-button">メニュー</button>
+    <script src="./typegame.js"></script>
+</body>
+</html>
